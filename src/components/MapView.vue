@@ -111,9 +111,9 @@ export default {
     },
     startShrinkingCircle() {
       let currentRadius = this.originalRadius;
-      const minRadius = 50;
-      const shrinkStep = 8;
-      const shrinkInterval = 120;
+      const minRadius = 5;
+      const shrinkStep = 5;
+      const shrinkInterval = 750;
 
       this.intervalId = setInterval(() => {
         if (!this.circle) return;
