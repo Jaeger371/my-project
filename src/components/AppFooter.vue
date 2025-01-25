@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <p>&copy; 2025 My Vue Homepage. All Rights Reserved.</p>
+    <p>&copy; M31°Hideout. All Rights Reserved.</p>
   </footer>
 </template>
 

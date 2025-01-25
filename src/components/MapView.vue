@@ -28,7 +28,7 @@ export default {
     return {
       map: null,
       circle: null,
-      originalRadius: 500,
+      originalRadius: 100,
       intervalId: null
     };
   },
@@ -195,9 +195,8 @@ main {
 
 /* Map container with a red border for debugging visibility */
 .map-container {
-  height: 600px;
+  flex-grow: 1; /* Allow it to take up available space */
   width: 100%;
-  border: 2px solid red;
   border-radius: 4px;
   margin-top: 20px;
 }
